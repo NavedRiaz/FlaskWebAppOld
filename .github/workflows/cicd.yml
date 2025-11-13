@@ -22,7 +22,7 @@ jobs:
 
       - name: List Files
         run: |
-          echo "Prof. Terry is teaching and we are learning DevOps!"
+          ech "Prof. Terry is teaching and we are learning DevOps!"
           ls -la
 
       - name: Install Dependencies
