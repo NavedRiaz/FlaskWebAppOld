@@ -22,7 +22,8 @@ jobs:
 
       - name: List Files
         run: |
-          echo "Prof. Terry is teaching and we are learning DevOps!"
+          echo "Prof. Terry is teaching and we are learning DevOps!" | mkdir -p FlaskWebProject1 && tee FlaskWebProject1/hello.txt
+          echo "Current working directory: $(pwd)"
 
       - name: Install Dependencies
         run: |
